@@ -9,7 +9,7 @@ public class DemoApplication {
 	public static int factorielle(int n) {
 		int resultat = 1;
 		for (int i = 1; i <= n; i++) {
-			resultat *= i;
+			resultat *= i+1;
 		}
 		return resultat;
 	}
