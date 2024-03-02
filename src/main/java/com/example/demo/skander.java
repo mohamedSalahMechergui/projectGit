@@ -14,4 +14,9 @@ public class Skander {
         int somme = calculerSomme(tableau);
         return (double) somme / tableau.length;
     }
+
+    public static double calculerMoyennes(int[] tableau) {
+        int somme = calculerSomme(tableau);
+        return (double) somme / tableau.length;
+    }
 }
