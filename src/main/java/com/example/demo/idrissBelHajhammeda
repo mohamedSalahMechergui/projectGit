@@ -1,0 +1,18 @@
+package.com.example.demo
+
+Public class idrissBelhajhammeda
+
+{ public static int calculerFactorielle(int n) {
+        if (n == 0 || n == 1) {
+            return 1;
+        } else {
+            return n * calculerFactorielle(n - 1);
+        }
+    }
+
+
+    public static boolean estPair(int nombre) {
+        return nombre % 2 == 0;
+    }
+    
+}
